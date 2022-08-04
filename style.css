@@ -12,14 +12,43 @@
 }
 
 body .container {
-    border-bottom: 2px dotted red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 10px;
 }
 
 .header {
     height:80px;
     background-color:rgba(127, 124, 151, 0.5);
     box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+    
+    padding: 0 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.header div,
+.header a {
+    color:white;
+    text-shadow:1px 1px 2px lightslategray;
+}
+.header div {
+    font-size: 40px;
+}
+.header ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+    display:flex;
+    width:300px;
+    justify-content:space-between;
+}
+.header a {
+    font-size:22px;
+    text-decoration:none;
+}
+
 
 .intro {
     height:450px;
