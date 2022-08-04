@@ -2,7 +2,16 @@ body .container {
     height:400px;
     border-bottom: 2px dotted red;
 }
+
 .header.container,
 .footer.container {
     height:80px;
+}
+
+.background {
+    background-image: url("background.jpg");
+    min-height: 500;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
