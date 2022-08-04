@@ -21,14 +21,18 @@ body .container {
     height:80px;
     /*background-color:rgba(154, 154, 255, 0.2);*/
 }
+.header.container {
+    background-color:rgba(127, 124, 151, 0.5);
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 .abdomen {
-    background-color:rgba(199, 199, 199, 0.5);
+    background-color:rgba(127, 124, 151, 0.5);
     border-radius:5px;
 }
 .imageset,
 .sign-up {
-    background-color:rgba(199, 193, 255, 0.712);
+    background-color:rgba(78, 70, 153, 0.712);
     border-radius:inherit;
 }
 .imageset {
