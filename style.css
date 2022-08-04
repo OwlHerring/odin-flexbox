@@ -12,32 +12,47 @@
 }
 
 body .container {
-    height:400px;
     border-bottom: 2px dotted red;
 }
 
-.header.container,
-.footer.container {
+.header {
     height:80px;
-    /*background-color:rgba(154, 154, 255, 0.2);*/
-}
-.header.container {
     background-color:rgba(127, 124, 151, 0.5);
     box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    height:450px;
 }
 
 .abdomen {
     background-color:rgba(127, 124, 151, 0.5);
     border-radius:5px;
+
+    height:1200px;
+
+    display: flex;
+    flex-direction:column;
 }
 .imageset,
 .sign-up {
-    background-color:rgba(78, 70, 153, 0.712);
+    background-color:rgba(105, 77, 158, 0.712);
     border-radius:inherit;
 }
 .imageset {
     box-shadow:0px 5px 5px rgba(0, 0, 0, 0.2);
+
+    height:500px;
+}
+.quote {
+    flex:1;
 }
 .sign-up {
     box-shadow:0px -5px 5px rgba(0, 0, 0, 0.2);
+    height:300px;
+}
+
+
+.footer {
+    height: 80px;
 }
