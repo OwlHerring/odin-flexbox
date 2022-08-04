@@ -6,12 +6,18 @@ body .container {
 .header.container,
 .footer.container {
     height:80px;
+    background-color:rgba(154, 154, 255, 0.2);
 }
 
 .background {
     background-image: url("background.jpg");
-    min-height: 500;
+    min-height: 1000px;
+    min-width:1500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size:cover;
+
+    display:flex;
+    flex-direction:column;
 }
